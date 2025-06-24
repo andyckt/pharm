@@ -427,7 +427,7 @@ const translations: Translation = {
   },
   "testimonial.sarah.name": {
     en: "Sarah Chen",
-    zh: "陳莎拉",
+    zh: "陳詠詩",
   },
   "testimonial.sarah.role": {
     en: "Patient",
@@ -439,7 +439,7 @@ const translations: Translation = {
   },
   "testimonial.michael.name": {
     en: "Michael Wong",
-    zh: "王邁克",
+    zh: "黃志明",
   },
   "testimonial.michael.role": {
     en: "Caregiver",
@@ -451,7 +451,7 @@ const translations: Translation = {
   },
   "testimonial.lisa.name": {
     en: "Lisa Tam",
-    zh: "譚麗莎",
+    zh: "譚嘉怡",
   },
   "testimonial.lisa.role": {
     en: "Patient",
