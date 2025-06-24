@@ -20,6 +20,24 @@ const translations: Translation = {
     zh: "English",
   },
 
+  // Navigation
+  "nav.services": {
+    en: "Services",
+    zh: "服務",
+  },
+  "nav.testimonials": {
+    en: "Testimonials",
+    zh: "患者評價",
+  },
+  "nav.faq": {
+    en: "FAQ",
+    zh: "常見問題",
+  },
+  "nav.book.now": {
+    en: "Book Now",
+    zh: "立即預約",
+  },
+
   // Hero section
   "community.initiative": {
     en: "Community Health Initiative",
@@ -448,6 +466,38 @@ const translations: Translation = {
   "footer.pharmacist.name": {
     en: "Pharmacist Yan, dedicated in helping the community",
     zh: "Pharmacist Yan, dedicated in helping the community", // Keeping in English as requested
+  },
+  "footer.about.us": {
+    en: "About Us",
+    zh: "關於我們",
+  },
+  "footer.about.description": {
+    en: "Pharmacist Yan provides free pharmacy consultations to help individuals understand their medications and manage their health better.",
+    zh: "藥劑師嚴提供免費藥房諮詢，幫助個人理解他們的藥物並更好地管理他們的健康。",
+  },
+  "footer.quick.links": {
+    en: "Quick Links",
+    zh: "快速鏈接",
+  },
+  "footer.link.services": {
+    en: "Services",
+    zh: "服務",
+  },
+  "footer.link.testimonials": {
+    en: "Testimonials",
+    zh: "患者評價",
+  },
+  "footer.link.faq": {
+    en: "FAQ",
+    zh: "常見問題",
+  },
+  "footer.link.book": {
+    en: "Book Consultation",
+    zh: "預約諮詢",
+  },
+  "footer.legal": {
+    en: "Legal",
+    zh: "法律信息",
   },
   "footer.copyright": {
     en: "© 2025 Pharmacist Yan. All rights reserved.",

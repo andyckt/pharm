@@ -188,13 +188,13 @@ export default function Home() {
           <div className="flex items-center gap-4">
             <div className="hidden md:flex items-center gap-6">
               <Link href="#services" className="text-sm font-medium hover:text-brand-600 transition-colors">
-                Services
+                {t("nav.services")}
               </Link>
               <Link href="#testimonials" className="text-sm font-medium hover:text-brand-600 transition-colors">
-                Testimonials
+                {t("nav.testimonials")}
               </Link>
               <Link href="#faq" className="text-sm font-medium hover:text-brand-600 transition-colors">
-                FAQ
+                {t("nav.faq")}
               </Link>
             </div>
             <LanguageToggle />
@@ -716,39 +716,38 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
-              <h3 className="text-lg font-medium mb-3">About Us</h3>
+              <h3 className="text-lg font-medium mb-3">{t("footer.about.us")}</h3>
               <p className="text-gray-600">
-                Pharmacist Yan provides free pharmacy consultations to help individuals understand their medications and
-                manage their health better.
+                {t("footer.about.description")}
               </p>
             </div>
             <div>
-              <h3 className="text-lg font-medium mb-3">Quick Links</h3>
+              <h3 className="text-lg font-medium mb-3">{t("footer.quick.links")}</h3>
               <ul className="space-y-2">
                 <li>
                   <a href="#services" className="text-gray-600 hover:text-brand-600">
-                    Services
+                    {t("footer.link.services")}
                   </a>
                 </li>
                 <li>
                   <a href="#testimonials" className="text-gray-600 hover:text-brand-600">
-                    Testimonials
+                    {t("footer.link.testimonials")}
                   </a>
                 </li>
                 <li>
                   <a href="#faq" className="text-gray-600 hover:text-brand-600">
-                    FAQ
+                    {t("footer.link.faq")}
                   </a>
                 </li>
                 <li>
                   <a href="#booking" className="text-gray-600 hover:text-brand-600">
-                    Book Consultation
+                    {t("footer.link.book")}
                   </a>
                 </li>
               </ul>
             </div>
             <div>
-              <h3 className="text-lg font-medium mb-3">Legal</h3>
+              <h3 className="text-lg font-medium mb-3">{t("footer.legal")}</h3>
               <ul className="space-y-2">
                 <li>
                   <Link
